@@ -1,7 +1,7 @@
 # Relative Classification Accuracy (RCA) for Fine-Grained K-pop Face Generation
 
 ## Overview
-Denoising Diffusion Probabilistic Models (DDPMs) generate high-fidelity images, but standard metrics like Fréchet Inception Distance (FID) and Inception Score (IS) often fail to measure semantic controllability in specialized, single-domain tasks. 
+Denoising Diffusion Probabilistic Models (DDPMs) generate high-fidelity images, but standard metrics like Fréchet Inception Distance (FID) and Inception Score (IS) often fail to measure semantic controllability in specialized, single-domain tasks. 🔗 [\[arXiv link here\]](https://arxiv.org/abs/2601.15560)
 
 This project explores **Class-Conditional DDPMs** tailored for fine-grained face generation, specifically focusing on K-pop idols. To address the evaluation gap, we introduce a novel metric: **Relative Classification Accuracy (RCA)**. RCA utilizes an "Oracle" classifier trained on real data to provide a calibrated measure of identity preservation, disentangling image quality from the intrinsic difficulty of fine-grained classification.
 
